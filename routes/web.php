@@ -19,7 +19,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('pages.auth.login');
+    return view('welcome');
 })->name("/");
 
 Route::get('/*', function (){
